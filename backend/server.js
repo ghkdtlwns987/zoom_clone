@@ -4,6 +4,16 @@
  * @author dodortus (dodortus@gmail.com / codejs.co.kr)
  *
  */
+/*
+const fs = require('fs');
+const private = fs.readFileSync('backend\\private.pem');
+const public = fs.readFileSync('backend\\public.pem');
+
+const credentials  = {
+	key: private.pem,
+  cert: public.pem
+};
+*/
 const config = require('./config.json');
 const express = require('express');
 const app = express();

@@ -21,7 +21,6 @@ $(function () {
     if (!location.href.match('localhost')) {
       changeHTTPS();
     }
-
     // webrtc 미지원 브라우저 체크
     if (isNeedCheckPage && !isSupportedBrowser) {
       showNotSupportBrowserMessage();
