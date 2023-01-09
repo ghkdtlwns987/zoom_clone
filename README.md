@@ -1,28 +1,11 @@
-# WebRTC 연구실 
+# WebRTC  
+20184327 황시준 오픈소스 SW프로젝트 중간발표 소스
 
-
-### 목표
-
-	* WebRTC를 보다 쉽게 이해하고 사용할 수 있도록 주요 API를 예제로 설명한다.
-	* WebRTC를 활용할 수 있도록 흥미로운 응용 주제를 소개한다.
-
-### 구성
-
-	1. WebRTC 소개
-	2. 마이크 & 캠 접근하기
-	3. 비디오에 필터 적용하기
-	4. 비디오를 이미지로 캡쳐하기
-	5. 화면 공유 API 접근하기
-	6. 1:1 화상회의
-	7. 1:1 파일 전송하기
-	8. 음성 인식
-	9. 더 자세한 설명
+### 진행 사항
+- 라우팅 기능 추가
 	
-
-### LiveDemo
-https://webrtclab.herokuapp.com
-
-![WebRTC 연구실](https://play.codejs.co.kr/dist/img/main.8301c4a6a87f98279cd4af1d8ce6b045.png)
+### 기존 소스와의 차별점
+- 라우팅 기능을 추가함으로서 localhost 와의 통신 뿐 아니라 외부 사용자도 접속 가능하게 함. 
 
 ### Setup
 ``` javascript
@@ -34,7 +17,7 @@ npm install
 npm start
 ```
 
-### Start nodemon (optional)
+### Routing
 ``` javascript
-npm run nodemon
+peerjs --port 3001
 ```
