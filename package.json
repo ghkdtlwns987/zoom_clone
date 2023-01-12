@@ -1,9 +1,23 @@
 {
-  "name": "webrtc-codelab",
-  "version": "0.0.1",
-  "description": "WebRTC codelab",
+  "name": "webrtc-lab",
+  "description": "WebRTC simple examples",
+  "version": "0.9.1",
+  "author": "dodortus",
+  "license": "MIT",
+  "keywords": [
+    "webrtc",
+    "javascript"
+  ],
   "dependencies": {
-    "node-static": "^0.7.10",
-    "socket.io": "^2.0.4"
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "node ./backend/server.js",
+    "nodemon": "nodemon ./backend/server.js"
   }
 }
