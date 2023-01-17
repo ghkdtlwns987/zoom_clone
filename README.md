@@ -6,7 +6,8 @@
 	
 ### 기존 소스와의 차별점
 - 라우팅 기능을 추가함으로서 localhost 와의 통신 뿐 아니라 외부 사용자도 접속 가능하게 함. 
-
+- UI 개선  
+- 기능 추가  
 ### Setup
 ``` javascript
 npm install
